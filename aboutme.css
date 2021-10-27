@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(82, 86, 89);
+  font-family: Arial, Georgia, "Times New Roman", serif;
+  color: white;
+  font-size: 120%;
+  text-align: justify;
+}
+.name {
+  font-size: 350%;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+p#dropcap {
+  font-weight: bold;
+  font-size: medium;
+}
+.yel {
+  color: yellow;
+}
+.titles {
+  color: cornflowerblue;
+  font-size: 25px;
+}
+.list {
+  color: white;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.slant {
+  font-style: italic;
+}
+.dtyellow {
+  color: yellow;
+}
+.dlsize {
+  font-size: small;
+}
+footer {
+  float: right;
+}

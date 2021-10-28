@@ -1,0 +1,30 @@
+div{
+    border:inset 3px white;
+    background-color: teal;
+    line-height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    color: white;
+}
+input{
+    border: inset 10px black;
+}
+.ret{
+    background-color: white;
+    color: teal;
+    border-radius: 6px;
+    text-align: center;
+}
+.but{
+    background-color:white;
+    color: teal;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+footer{
+    line-height: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

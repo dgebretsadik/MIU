@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" href="grades.css" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="ret">Retrieve Grade</h1>
+      <form action="http://mumstudents.org/params.php">
+        <p>Name: Rofiat Adesewa Adepoju</p>
+        <p>Student ID: 612821</p>
+
+        <label>Assignment:</label>
+        <select name="labs" id="labs">
+          <option value="homepage">Lab1 - Homepage</option>
+          <option value="aboutme">Lab 2 - About Me</option>
+          <option value="recipe">Lab 2 -Recipe</option>
+          <option value="grades">Lab 3 - Grade</option>
+          <option value="movie review">Lab 3 - Movie Review</option>
+          <option value="form">Lab 4 -Nerdluv-Sign-up-Page</option>
+        </select>
+        <br />
+
+        <label>Entry</label>
+        <input
+          required
+          type="radio"
+          name="entry"
+          id="e1"
+          value="summer21"
+        />Summer 2021
+        <input
+          required
+          type="radio"
+          name="entry"
+          id="e2"
+          value="spring21"
+        />Spring 2021
+        <input required type="radio" name="entry" id="e3" value="fall21" />Fall
+        2021
+        <br />
+
+        <input
+          type="checkbox"
+          required
+          name="terms"
+          id="terms"
+          value="terms accepted"
+        />
+        <label for="terms" class="checkbox"
+          >Accept to verify you are only looking up your Grade.</label
+        >
+        <br />
+
+        <button type="submit" class="but">SUBMIT</button>
+        <br />
+
+        <a href="https://feeharh.github.io/">Click To Homepage</a>
+        <footer>
+          <a
+            href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffeeharh.github.io%2Fgrades%2F"
+            ><img src="w3c-css.png" alt="css validator" />
+          </a>
+          <a
+            href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffeeharh.github.io%2Fgrades%2F"
+          >
+            <img src="w3c-html.png" alt="html validator" />
+          </a>
+        </footer>
+      </form>
+    </div>
+  </body>
+</html>

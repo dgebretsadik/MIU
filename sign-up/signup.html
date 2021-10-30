@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nerdluv-Sign-up-Page</title>
+    <link rel="stylesheet" href="signup.css" type="text/css" />
+  </head>
+  <body>
+    <p class="nerd">
+      nerd<span class="color">Luv &trade;</span><br />
+      <span class="lil">where meek geeks meet</span>
+    </p>
+    <form action="http://mumstudents.org/params.php">
+      <fieldset>
+        <legend>New User Signup:</legend>
+        <label for="name" class="lab">Name:</label>
+        <input
+          required
+          type="text"
+          id="name"
+          name="name"
+          class="n"
+          maxlength="16"
+        />
+        <br />
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" />Male
+        <input
+          type="radio"
+          id="female"
+          name="gender"
+          value="Female"
+          checked
+        />Female
+        <br />
+
+        <label for="age">Age:</label>
+        <input
+          required
+          type="text"
+          id="age"
+          name="number"
+          maxlength="6"
+          class="reduce"
+        />
+        <br />
+
+        <label for="pa">Personality Type:</label>
+        <input
+          required
+          type="text"
+          id="pa"
+          name="number"
+          maxlength="6"
+          class="reduce"
+        />
+        <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">
+          <span class="col">(Don't know your type?)</span></a
+        >
+        <br />
+        <label>Favorite OS:</label>
+        <select name="fav" id="fav">
+          <option value="windows" selected>Windows</option>
+          <option value="linux">Linux</option>
+          <option value="Mac">Mac</option>
+          <option value="android">Android</option>
+          <option value="unix">Unix</option>
+        </select>
+        <br />
+        <label>Seeking Age:</label>
+        <input
+          required
+          type="text"
+          id="seekinagemin"
+          name="seekingage"
+          maxlength="2"
+          placeholder="min"
+          class="reduce"
+        />
+        to
+        <input
+          required
+          type="text"
+          id="seekingagemax"
+          name="seekingagemax"
+          maxlength="2"
+          placeholder="max"
+          class="reduce"
+        />
+        <br />
+        <button type="submit" class="but">Sign Up</button>
+      </fieldset>
+      <p>
+        This page is for single nerds to meet and date each other! Type in your
+        <br />
+        personal information and wait for the nerdy luv to begin!
+      </p>
+      <p>Thank you for using our site.</p>
+      <p>Results and page (C) Copyright NerdLuv Inc</p>
+      <div id="align">
+        <img src="arrow.jpg" alt="image" class="img" />
+        <a href="https://dgebretsadik.github.io/"
+          ><span class="col">Back to front page</span></a
+        >
+      </div>
+
+      <footer>
+        <a
+          href="http://validator.w3.org/check?uri=dgebretsadik.github.io/sign-up/signup.css"
+          ><img src="w3c-css.png" alt="css validator" />
+        </a>
+        <a
+          href="http://validator.w3.org/check?uri=dgebretsadik.github.io/sign-up/signup.html"
+        >
+          <img src="w3c-html.png" alt="html validator" />
+        </a>
+      </footer>
+    </form>
+  </body>
+</html>

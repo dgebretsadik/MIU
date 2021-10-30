@@ -1,0 +1,65 @@
+.n{
+    width: 24%;
+    border: inset 3px white;
+}
+body{
+    color: black;
+}
+fieldset{
+    background-color:thistle;
+    border-radius:15px;
+    line-height: 4ch;
+    width: 40%;
+}
+legend{
+    background-color: white;
+    padding-top:1px;
+   line-height: 100%;
+   border: inset 3px white;
+}
+label{
+    display:inline-block;
+    width: 150px;  
+}
+.reduce{
+    width: 11%;
+}
+.col{
+    color: red;
+}
+a{
+ text-decoration: none;   
+}
+.but{
+    background-color:lightsalmon;
+    font-weight:bolder;
+    font-size: 17px;
+    font-family:"Arial black";
+    border-radius: 7%;
+    padding-top: unset;
+    line-height: 20px;
+}
+#align{
+    overflow:hidden;
+}
+.nerd{
+    font-family: "Arial black";
+    color: grey;
+    font-size: 120%;
+}
+.color{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.lil{
+    font-size: 65%;
+}
+footer{
+    line-height: 150px;
+}
+input{
+    border: inset 3px white;
+}
+img.img{
+    width: 16px;
+}

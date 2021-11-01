@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Text Decorator</title>
     <link href="decoratemytext.css" type="text/css" rel="stylesheet" />
 
@@ -18,7 +21,7 @@
     <!-- Your UI controls go here -->
     <fieldset>
       <legend>TEXT</legend>
-      <textarea name="text" id="txt" cols="30" rows="6" style="font-size: 12pt">
+      <label> name: <input type="text" id="txt" cols="30" rows="6"></label>
 Sample Item 1
 				Sample Item 2</textarea
       >
@@ -32,7 +35,7 @@ Sample Item 1
       </button>
       <br />
 
-      <input type="checkbox" onchange="myFunction2(this)" id="chkbx" />
+      <label> type: <input type="checkbox" onchange="myFunction2(this)" id="chkbx" /></label>
       <span id="spn"> Bling</span>
       <br />
 

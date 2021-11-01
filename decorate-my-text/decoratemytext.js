@@ -18,29 +18,12 @@ function myFunction2(checkboxElem){
         document.getElementById('txt').style.fontWeight="bold";
         document.getElementById('txt').style.color="green";
         document.getElementById('txt').style.textDecoration = "underline";
-        document.getElementById('bdy').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzH8WiIxNWmB2VRsYRgCoalnBEjSRif_Ba4U_G40b1Zxbt5dODIjXJqFpZTHH0ustshNJDV88&usqp=CAc')" ;
+        document.getElementById('bdy').style.backgroundImage = "url('https://th.bing.com/th/id/R.2d9fb6d88ed78c7da245998c3fef240c?rik=6yIVQd2X8PjSEg&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2016%2f01%2fSunset-Background-Images-Hd-Sunset-background-images-hd-07329.jpg&ehk=7J99b98IPCvu0KnLxFH6gC%2bV%2b%2fcnD3GpSnjHO%2fJcNWE%3d&risl=&pid=ImgRaw&r=0')" ;
     }
     else{
         document.getElementById('txt').style.fontWeight=""
         document.getElementById('txt').style.color="";
         document.getElementById('txt').style.textDecoration = "none";
         document.getElementById('bdy').style.backgroundImage = "none";
-    }
-}
-
-function myFunction3(){
-    var changeWords = document.getElementById('txt').value;
-    if(changeWords.length >= 5){
-        document.getElementById('txt').innerHTML = "Malkovich";
-    }
-}
-
-function myFunction4(){
-    var c = document.getElementById('txt').value;
-    if(c.startsWith('a')  || c.startsWith('e') || c.startsWith('i') || c.startsWith('o') || c.startsWith('u')){
-        document.getElementById('txt').innerHTML = "ay" + document.getElementById('txt').value;
-    }
-    else{
-        document.getElementById('txt').innerHTML +="bb";
     }
 }

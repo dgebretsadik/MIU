@@ -1,0 +1,79 @@
+1. b = 9; x= 5
+	
+2. What is the difference between a method and function?
+
+A function is a block of code written to perform some specific set of tasks.
+
+WHILE 
+
+A JavaScript method is a property of an object that contains a function definition.
+
+3. What does 'this' refer to when used in a Java method?
+
+ Using 'this' keyword is used to invoke current class constructor
+
+4. What does 'this' refer to when used in a JavaScript method?
+
+  In an object method, this refers to the "owner" of the method.
+
+5. What does 'this' refer to when used in a JavaScript constructor function?
+
+ Answer: refers to an instance of the constructor
+
+6. Assume object x is the prototype for object y in Javascript. Object x has a method f( ) containing keyword 'this'.
+When f is called by x.f( ), what does 'this' refer to?
+
+ Answer: the 'this' keyword refers to the variable of object x
+
+7.  What is a free variable in JavaScript?
+
+ Answer: free variable is a variable referred to by a function that is not one of its local variable.
+
+8.  Create an object that has properties with name = "fred" and major="music" and a property that is a function
+that takes 2 numbers and returns the smallest of the two, or the square of the two if they are equal.
+
+ 	var obj = {
+		name: "fred",
+		major: "music",
+		smallOrEven: function(a, b){
+			if(a === b){
+				return Math.pow((a + b), 2);
+			}
+
+			else{
+				return Math.min(a, b);
+			}
+		}
+	};
+
+9.  Write Javascript code for creating three Employee objects using the "new" keyword and a constructor function.
+Employee objects have the following fields: name, salary, position.
+
+	class Employee {
+		constructor (name, salary, position){
+			this.name = name;
+			this.salary = salary;
+			this.position = position;
+		}
+	}
+
+	var emp1 = new Employee("rofiat", 200000, "Manager");
+	var emp2 = new Employee("adesewa", 300000, "Software Dev");
+	var emp2 = new Employee("ololade", 500000, "Software Eng");  
+
+10.   Write a Javascript function that takes any number of input arguments and returns the product of the
+arguments.
+
+	function myFunc(){
+		var product = 1;
+		for(var i = 0; i < arguments.length; i++){
+			product *= arguments[i];
+		}
+			return product;
+	}
+
+11.  Write an arrow function that returns the maximum of its three input arguments.
+	
+	var max = (a, b, c) =>  Math.max(a, b, c);
+	
+	

@@ -92,7 +92,8 @@ var add = (function () {
                     return counter += 1;
                 }
                  })();
-Modify the above module to define a count object with two methods: add( ) and reset( ). The count.add( ) method adds one to the counter (as above). The count.reset( ) method sets the counter to 0.
+Modify the above module to define a count object with two methods: add( ) and reset( ). 
+The count.add( ) method adds one to the counter (as above). The count.reset( ) method sets the counter to 0.
 Answer:
 
                 var count = (function(){

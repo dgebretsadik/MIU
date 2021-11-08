@@ -114,31 +114,26 @@ Answer:
 			
                   })();
             
-7. In the definition of add( ) shown in question 6, identify the "free" variable. In the context of a function closure, what is a "free" variable?
-Answer:
+7.  In the definition of add( ) shown in question 6, identify the "free" variable. In the context of a function closure, what is a "free" variable?
+    Answer:
 	in question 6 the free variable is var counter = 0;
 
 	A free variable is a variable that is being reffered to by a function that is not one of its local variable.
 	
-8. The add( ) function defined in question 6 always adds 1 to the counter each time it is called. 
-Write a definition of a function make_adder(inc), whose return value is an add function with increment value inc (instead of 1). 
-Here is an example of using this function:
-Answer:
+8.  The add( ) function defined in question 6 always adds 1 to the counter each time it is called. 
+    Write a definition of a function make_adder(inc), whose return value is an add function with increment value inc (instead of 1). 
+    Here is an example of using this function:
+    Answer:
 
-	function makeAdder(inc){
-		return var add = (function () {
-                       var counter = 0;
-                   	  return counter += inc;
-                
-                 })();
-	}
 
 	
                 
             
-9. Suppose you are given a file of Javascript code containing a list of many function and variable declarations. All of these function and variable names will be added to the Global Javascript namespace. What simple modification to the Javascript file can remove all the names from the Global namespace?
-Answer:
-Using Module pattern we can remove all the names from global namespace.
+9.  Suppose you are given a file of Javascript code containing a list of many function and variable declarations. 
+    All of these function and variable names will be added to the Global Javascript namespace. 
+    What simple modification to the Javascript file can remove all the names from the Global namespace?
+    Answer:
+    Using Module pattern we can remove all the names from global namespace.
 
 10. Using the Revealing Module Pattern, write a Javascript definition of a Module that creates an Employee Object with the following fields and methods:
             Private Field: name
@@ -153,7 +148,7 @@ Using Module pattern we can remove all the names from global namespace.
             Public Method: increaseSalary(percentage) // uses private getSalary( )
             Public Method: incrementAge( ) // uses private getAge( )
         
-Answer:
+    Answer:
 
                 var Employee = (function () {
                     var name, age, salary;

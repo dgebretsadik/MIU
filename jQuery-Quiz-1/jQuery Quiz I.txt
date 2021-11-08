@@ -9,6 +9,7 @@
 
 2. Write jQuery code to find all h1 elements that are children of a div element and make their background
 color red.
+
 Sample HTML:
 	<body>
 	  <h1>abc</h1>

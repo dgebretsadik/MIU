@@ -1,0 +1,41 @@
+
+							jQuery Quiz II
+
+1. Which, if any, of the following 3 code fragments are equivalent? Explain why they are different, if
+they are. Explain why they can have different parameters and be equivalent, if they are equivalent.
+		//code fragment 1
+		$("li").each(function(idx, e) {
+ 			$(e).css(“color”, “yellow”); });
+		//code fragment 2
+		$("li").each(function() {
+ 			$(this).css(“color”, “yellow”); });
+		//code fragment 3
+		$("li").each(function(idx) {
+ 			$(this).css(“color”, “yellow”); });
+
+ANSWER:  1. They are all equivalent
+
+	The first code fragment uses the second argument which is the current element under consideration
+
+	while the second and third code fragment uses the 'this' keyword which is also the current element under consdideration.
+
+	Notice the idx variable(which is the current index) is being ignored in the third code fragment
+
+
+
+2. Write a jQuery expression to find all divs on a page that include an unordered list in them, and make
+their text color be blue.
+ 		<div>no ul here </div>
+	 	<div>This does contain a ul.
+ 			<ul>
+ 				<li>the first item</li>
+ 				<li>the second item</li>
+ 			</ul>
+ 		</div>
+ 		<script>
+			<!—INSERT YOUR JQUERY CODE HERE - - >
+			$(document).ready(function(){
+				$("div ul li").css("color", "blue");
+			});
+ 		</script>
+ 	</body>

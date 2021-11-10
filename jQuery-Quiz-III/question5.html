@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<body>
+    <!--QUESTION FIVE ANSWER--> 
+
+<div class="ancestors">
+    <div> (great-grandparent)
+        <ul> (grandparent)
+            <li> (direct parent)
+                <span>some text</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        //<!--INSERT Y OUR JQUERY CODE HERE-->
+    $("span:contains('some text')").parent().parent().css("color", "green");
+    });
+</script>
+</body>
+</html>

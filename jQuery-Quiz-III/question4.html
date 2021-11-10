@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<body>
+    <!-- Let us one additional requirement for the "Go Vegetarian" button of the Webville Eatery Menu
+described in Chapter 4 of Head First jQuery: "Turkey" in the ingredient list of any entree is replaced by
+"Mashed Potatoes" in the vegetarian version. You may assume there is a class "turkey" that identifies
+these items in the list. Describe the changes to the Javascript (jQuery) code to implement this new
+requirement-->
+
+<script>
+    $(document).ready(function(){
+        $(".turkey").replaceWith("<li>Mashed Potatoes  </li>");
+        
+    });
+
+</script>
+</body>
+</html>
